@@ -1,0 +1,45 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Gaya Oudjit',
+  date: '2023-05-15',
+  title: 'Crafting a scalable design system for modern web applications',
+  description:
+    'Exploring the process of creating a scalable and maintainable design system for complex web applications, focusing on performance and user experience.',
+  category: 'Web Development',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+In the fast-paced world of web development, creating a cohesive and scalable design system is crucial for building modern web applications. As a web developer, I've learned that a well-crafted design system not only enhances user experience but also significantly improves development efficiency.
+
+<Image src={designSystem} alt="Visual representation of a web design system" />
+
+To create an effective design system, I started by analyzing our project requirements and user needs. I knew that to get it right, I would need to balance flexibility with consistency, ensuring that our system could adapt to various use cases while maintaining a unified look and feel.
+
+## Foundation Elements
+
+The cornerstone of any robust design system is its foundation elements. These include:
+
+1. Typography
+2. Color palette
+3. Spacing and layout
+4. Icons and imagery
+
+By defining these elements early in the process, we establish a solid base for all other components and patterns in our system.
+
+## Component Library
+
+With the foundations in place, I focused on building a comprehensive component library. This involved:
+
+1. Identifying common UI patterns across our applications
+2. Designing reusable components that could be easily customized
+3. Implementing these components using modern front-end frameworks like React
+
+

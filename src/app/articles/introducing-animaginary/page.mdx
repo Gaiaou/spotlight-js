@@ -1,0 +1,65 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'gueya oudjit',
+  date: '2022-09-02',
+  title: 'Introducing Animaginary: High performance web animations',
+  description:
+    'When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.
+
+To make this possible, we needed to squeeze every drop of performance out of the browser possible. And so Animaginary was born.
+
+```js
+import { animate } from '@planetaria/animaginary'
+
+export function MyComponent({ open, children }) {
+  return (
+    <animate.div
+      in={open}
+      animateFrom="opacity-0 scale-95"
+      animateTo="opacity-100 scale-100"
+      duration={350}
+    >
+      {children}
+    </animate.div>
+  )
+}
+```
+
+Animaginary is our new web animation library that redefines what you thought was possible on the web. Hand-written in optimized WASM, Animaginary can even animate the `height` property of an element at 60fps.
+
+## Performance Optimizations
+
+One of the key focuses during the development of Animaginary was performance. Here are some of the optimizations we implemented:
+
+1. **Efficient DOM Updates**: Animaginary minimizes DOM manipulations by using a virtual DOM-like approach for animations.
+2. **GPU Acceleration**: Where possible, we leverage CSS transforms and opacity for smooth, GPU-accelerated animations.
+3. **Lazy Loading**: Animation calculations are performed on-demand, reducing the initial load time of your web applications.
+
+## Real-world Applications
+
+Animaginary has already been adopted by several high-profile websites, including e-commerce platforms, interactive data visualizations, and educational apps. The feedback has been overwhelmingly positive, with developers praising its ease of use and performance benefits.
+
+## Looking Ahead
+
+The future of Animaginary is exciting. We're currently working on:
+
+1. Integration with popular frontend frameworks like Vue and Svelte
+2. Expanded library of pre-built animations
+3. Advanced 3D animation capabilities using WebGL
+
+## Conclusion
+
+Developing Animaginary has been a journey of pushing the limits of web animation technology. It's a testament to how far we've come in web development and a glimpse into the future of interactive web experiences. I invite fellow developers to try out Animaginary and join us in revolutionizing web animations.
+
+Stay tuned for more updates and happy animating!
