@@ -301,7 +301,7 @@ export default function Home() {
             I&apos;m Gaya Oudjit, a web developer and trader who travels the world, crafting digital experiences and financial strategies. I blend my passion for coding with my love for exploration and market analysis, creating unique solutions that bridge the worlds of technology and finance.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Gaya Oudjit, a web developer and trader who travels the world, crafting digital experiences and financial strategies. I blend my passion for coding with my love for exploration and market analysis, creating unique solutions that bridge the worlds of technology and finance.
+            I'm Gaya Oudjit, a web developer and trader who travels the world, crafting digital experiences and financial strategies. I blend my passion for coding with my love for exploration and market analysis, creating unique solutions that bridge the worlds of technology and finance.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
