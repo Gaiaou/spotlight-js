@@ -9,6 +9,7 @@ import {
   TelegramIcon,
   TikTokIcon,
   YouTubeIcon,
+  GitHubIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -68,6 +69,9 @@ export default function About() {
             <p>
               Whether it&apos;s crafting dynamic websites, solving problems with clean, efficient code, or helping businesses grow their online presence, I am always pushing the boundaries to create the future.
             </p>
+            <p>
+              Join my Telegram channel for updates and insights: <a href="https://t.me/Gaiaou" className="text-teal-500 hover:text-teal-600">t.me/Gaiaou</a>
+            </p>
           </div>
         </div>
         <div className="lg:pl-20">
@@ -75,17 +79,20 @@ export default function About() {
             <SocialLink href="https://www.instagram.com/two_nomade" icon={InstagramIcon}>
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="https://t.me/ga_ou" icon={TelegramIcon} className="mt-4">
+            <SocialLink href="https://t.me/gue_ou" icon={TelegramIcon} className="mt-4">
               Follow on Telegram
             </SocialLink>
-            <SocialLink href="https://www.tiktok.com/@aneckaLove" icon={TikTokIcon} className="mt-4">
+            <SocialLink href="https://www.tiktok.com/@aneckalovee" icon={TikTokIcon} className="mt-4">
               Follow on TikTok
             </SocialLink>
-            <SocialLink href="https://www.youtube.com/user/gueyaoudjit" icon={YouTubeIcon} className="mt-4">
+            <SocialLink href="https://www.youtube.com/@GaiaOudjit" icon={YouTubeIcon} className="mt-4">
               Subscribe on YouTube
             </SocialLink>
-            <SocialLink href="https://www.linkedin.com/in/gueya-oudjit" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/gaiaoudjit" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
+            </SocialLink>
+            <SocialLink href="https://github.com/gueyaou" icon={GitHubIcon} className="mt-4">
+              Follow on GitHub
             </SocialLink>
             <SocialLink
               href="mailto:gaiaoudjit@gmail.com"

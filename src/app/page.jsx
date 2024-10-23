@@ -297,9 +297,9 @@ export default function Home() {
     <>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+          <Link href="/about" className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100 hover:text-teal-500 dark:hover:text-teal-400 transition">
             WHO IS THIS GUY??
-          </h1>
+          </Link>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Im Gaya Oudjit, a web developer and trader who travels the world, crafting digital experiences and financial strategies. I blend my passion for coding with my love for exploration and market analysis, creating unique solutions that bridge the worlds of technology and finance.
           </p>
@@ -310,24 +310,29 @@ export default function Home() {
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://t.me/ga_ou"
-              aria-label="Follow on Telegram"
-              icon={TelegramIcon}
-            />
-            <SocialLink
-              href="https://www.tiktok.com/@aneckaLove"
+              href="https://www.tiktok.com/@aneckalovee"
               aria-label="Follow on TikTok"
               icon={TikTokIcon}
             />
             <SocialLink
-              href="https://www.youtube.com/user/gueyaoudjit"
+              href="https://www.linkedin.com/in/gaiaoudjit"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
+            <SocialLink
+              href="https://www.youtube.com/@GaiaOudjit"
               aria-label="Subscribe on YouTube"
               icon={YouTubeIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/gueya-oudjit"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+              href="https://github.com/gueyaou"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://t.me/gue_ou"
+              aria-label="Follow on Telegram"
+              icon={TelegramIcon}
             />
           </div>
         </div>
