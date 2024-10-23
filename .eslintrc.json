@@ -1,11 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "off"
+  }
 }
-module.exports = {
-  // ... other configurations
-  rules: {
-    'no-console': 'off',
-    'no-unused-vars': 'off',
-    // Add other rules you want to disable
-  },
-};
